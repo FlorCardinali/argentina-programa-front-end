@@ -1,6 +1,7 @@
 :root {
     --color:rgb(199, 195, 202);
     --background: rgb(68, 67, 67);
+    --hover: rgb(99, 98, 98);
 }
 
 * {
@@ -26,26 +27,84 @@
             left: 0;
         }
             .nav {
-                height: 100%;
+                height: 40px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
             }
+                /* logo del lado izquierdo */
                 .logo {
                     color: var(--color);
                     font-weight: bold;
+                    font-size: 18pt;
+                    text-transform: uppercase;
+                    width: max-content;
                 }
-                #nav-menu {
+                /* menu hamburguesa */
+                .nav-hamburguesa {
+                    background: none;
+                    color: var(--color);
+                    border: none;
+                    display: none;
+                }
+                /* menu de navegacion principal */
+                .nav-menu {
                     display: flex;
-
+                    list-style: none;
+                    align-items: center;
                     /* para que se separe la lista del lado derecho */
                     margin-right: 30px;
                 }
-                    .nav-a {
-                        /* quitar decoracion de los links */
-                        text-decoration: none;
-                        color: var(--color);
+                    /* los li */
+                    .nav-item {
+                        text-transform:capitalize;
+                        font-size: 15pt;
+                        width: max-content;
                     }
+                        /* los a dentro de los li */
+                        .nav-a {
+                            /* quitar decoracion de los links */
+                            text-decoration: none;
+                            color: var(--color);
+                            padding: 5px 10px;
+                            border-radius: 15px;
+                        }
+                            .nav-a:hover{
+                                background-color:var(--hover);                   
+                            }
+
+
+@media (max-width:850px) {
+
+    .nav-menu {
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: var(--hover);
+        top: 40px;
+        margin-right: 0;
+        padding: 15px 0px;
+        position: fixed;
+        width: 100%;
+
+        /* control de transicions */
+        left: 100%;
+        transition: left 0.8s;
+    }
+    .nav-item {
+        padding: 10px 0px;
+    }
+    .nav-hamburguesa{
+        display: flex;
+    }
+    .nav-menu_visible {
+        /* control de trancicion
+        se crea y se deshace esta clase en el nav-menu */
+        left: 0%;
+    }
+    .nav-a:hover{
+        background-color:var(--background);                   
+    }
+}
 
 
 
