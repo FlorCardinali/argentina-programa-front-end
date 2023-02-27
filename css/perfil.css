@@ -1,0 +1,86 @@
+
+.perfil {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 300px;
+}
+    #img-bio {
+        width: 100%;
+        height: 300px;
+        object-fit:cover;
+        z-index: 0;
+    }
+
+    .contenedor-perfil {
+        display: flex;
+        justify-content: start;
+        width:max-content ;
+        background: none;
+        position: relative;
+        top: -80px;
+        margin-left: 30px;
+        gap: 30px;
+    }
+        #img-perfil {
+            border-radius: 50%;
+            border: 2px solid white;
+            
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            z-index: 1;
+        }
+        .contenedor-texto-perfil{
+            padding: 0px 20px 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+        }
+            #nombre-perfil {
+                color: var(--letra-importante);
+                font-size: xx-large;
+                max-width: max-content;
+            }
+            #cargo-perfil {
+                font-size:large;
+                color: var(--letra-no-importante);
+            }
+/* escritorio */
+@media (min-width:600px) {
+    /* que el nombre se ponga en dos lineas */
+    #nombre-perfil br {
+        display:none;   
+    }
+}
+/* mobile */
+@media (max-width:600px) {
+    .contenedor-texto-perfil {
+        padding: 0px 20px 20px 20px;;
+     }
+}
+@media (max-width:480px) {
+    .perfil {
+        height: 70px;
+    }
+        .contenedor-perfil {
+            top: -50px;
+            margin-left: 10px;
+            gap: 10px;
+        }
+            #img-perfil {
+                min-width: 150px;
+                max-width: 150px;
+                min-height: 150px;
+                max-height: 150px;
+            }
+            .contenedor-texto-perfil {
+                padding: 0px 20px 0px 20px;;
+            }
+                #nombre-perfil {
+                        font-size: x-large;
+                    }
+                    #cargo-perfil {
+                        font-size:medium;
+                    }
+}
