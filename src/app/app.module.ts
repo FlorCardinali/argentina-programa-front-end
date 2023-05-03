@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarComponent } from './componentes/header/bar/bar.component';
 import { LogoArgProgComponent } from './componentes/header/logo-arg-prog/logo-arg-prog.component';
+import { ContenedorSocialBarComponent } from './componentes/header/contenedor-social-bar/contenedor-social-bar.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { LogoArgProgComponent } from './componentes/header/logo-arg-prog/logo-ar
     AppComponent,
     BarComponent,
     LogoArgProgComponent,
+    ContenedorSocialBarComponent,
   ],
   imports: [
     BrowserModule,

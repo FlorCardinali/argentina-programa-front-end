@@ -1,0 +1,11 @@
+#contenedor-social {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 25px;
+    gap: 10px;
+}
+#contenedor-social img {
+    width: 40px;
+}
