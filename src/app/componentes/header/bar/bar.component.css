@@ -1,8 +1,9 @@
 #barra-header {
-    background-color: black;
+    background: linear-gradient(black, rgb(86, 89, 97));
     width: 100vw;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 5px solid black;
 }
