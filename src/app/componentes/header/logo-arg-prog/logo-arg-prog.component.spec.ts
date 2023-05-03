@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LgoArgProgComponent } from './lgo-arg-prog.component';
+import { LogoArgProgComponent } from './logo-arg-prog.component';
 
 describe('LgoArgProgComponent', () => {
-  let component: LgoArgProgComponent;
-  let fixture: ComponentFixture<LgoArgProgComponent>;
+  let component: LogoArgProgComponent;
+  let fixture: ComponentFixture<LogoArgProgComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LgoArgProgComponent ]
+      declarations: [ LogoArgProgComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LgoArgProgComponent);
+    fixture = TestBed.createComponent(LogoArgProgComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
