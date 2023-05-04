@@ -1,8 +1,25 @@
 #perfil {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
+    display: grid;
+    margin-right: 10px;
+    grid-template-columns: 1fr 1fr; /* crea tres columnas iguales */
+    grid-template-rows: auto; /* crea una fila automática */
+    
     column-gap: 35px;
+
+}
+
+#foto-y-texto {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    /* para levantar la imagen de perfil */
     position: relative;
     top: -50px;
 }
+app-texto-perfil {
+    /* porque sino al expandir todo el acerca de, explota. */
+    margin-top: 70px;
+}
+

@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     color: aliceblue;
+
 }
 #nombre-y-titulo * {
     margin: 0%;
 }
+#nombre-y-titulo h1 {
+    min-width: 250px;
+} 

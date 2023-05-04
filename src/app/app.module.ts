@@ -12,6 +12,7 @@ import { PerfilComponent } from './componentes/header/perfil/perfil.component';
 import { ImgPerfilComponent } from './componentes/header/perfil/img-perfil/img-perfil.component';
 import { TextoPerfilComponent } from './componentes/header/perfil/texto-perfil/texto-perfil.component';
 import { BodyComponent } from './componentes/body/body.component';
+import { AcercaDeComponent } from './componentes/header/perfil/acerca-de/acerca-de.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { BodyComponent } from './componentes/body/body.component';
     ImgPerfilComponent,
     TextoPerfilComponent,
     BodyComponent,
+    AcercaDeComponent,
   ],
   imports: [
     BrowserModule,
