@@ -13,6 +13,7 @@ import { ImgPerfilComponent } from './componentes/header/perfil/img-perfil/img-p
 import { TextoPerfilComponent } from './componentes/header/perfil/texto-perfil/texto-perfil.component';
 import { BodyComponent } from './componentes/body/body.component';
 import { AcercaDeComponent } from './componentes/header/perfil/acerca-de/acerca-de.component';
+import { EducacionComponent } from './componentes/body/educacion/educacion.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { AcercaDeComponent } from './componentes/header/perfil/acerca-de/acerca-
     TextoPerfilComponent,
     BodyComponent,
     AcercaDeComponent,
+    EducacionComponent,
   ],
   imports: [
     BrowserModule,
