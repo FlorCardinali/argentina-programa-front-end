@@ -1,0 +1,8 @@
+#nombre-y-titulo {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+#nombre-y-titulo * {
+    margin: 0%;
+}

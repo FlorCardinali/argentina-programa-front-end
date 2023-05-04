@@ -8,6 +8,10 @@ import { LogoArgProgComponent } from './componentes/header/bar/logo-arg-prog/log
 import { ContenedorSocialBarComponent } from './componentes/header/bar/contenedor-social-bar/contenedor-social-bar.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { ImgBioComponent } from './componentes/header/img-bio/img-bio.component';
+import { PerfilComponent } from './componentes/header/perfil/perfil.component';
+import { ImgPerfilComponent } from './componentes/header/perfil/img-perfil/img-perfil.component';
+import { TextoPerfilComponent } from './componentes/header/perfil/texto-perfil/texto-perfil.component';
+import { BodyComponent } from './componentes/body/body.component';
 
 
 @NgModule({
@@ -18,6 +22,10 @@ import { ImgBioComponent } from './componentes/header/img-bio/img-bio.component'
     ContenedorSocialBarComponent,
     HeaderComponent,
     ImgBioComponent,
+    PerfilComponent,
+    ImgPerfilComponent,
+    TextoPerfilComponent,
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
