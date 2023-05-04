@@ -13,7 +13,7 @@ export class AcercaDeComponent {
       console.log(boton_mostrar_mas.textContent);
       if (boton_mostrar_mas.textContent == "Mostrar mas") {
         if (acerca_de) {
-          acerca_de.style.maxHeight = "700px";
+          acerca_de.style.maxHeight = "90000px";
           boton_mostrar_mas.textContent = "Mostrar menos";
         }
       } else if (boton_mostrar_mas.textContent == "Mostrar menos"){

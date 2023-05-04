@@ -2,16 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items:flex-end;
-    gap: 15px;
-    padding: 10px;
-}
-
-
-#div-acerca-de * {
-    color: aliceblue;
-    margin: 0%;
     
-} 
+    padding: 10px;
+    margin-top: 20px;
+    color: aliceblue; 
+}
+#div-acerca-de h2 {
+    margin: 0%;
+}
 #texto-largo {
     max-height: 100px;
     overflow: hidden;
@@ -23,8 +21,13 @@
     border: 0;
     font-size: large;
     text-decoration:overline;
+    color: #e8966b;
 }
 #mostrar-mas:hover{
     /* background-color: #6cbde8; */
     filter: drop-shadow(0px 0px 4px #6cbde8);
+}
+.destacado {
+    font-weight: 800;
+    color: #e8966b;
 }
