@@ -7,12 +7,14 @@
     gap: 10px;
 }
 #contenedor-social img {
-    width: 40px;
+    width: 30px;
     opacity: 70%;   
 }
 #contenedor-social img:hover {
-    filter: drop-shadow(-5px 9px 2px black);
+    filter: drop-shadow(0px -7px 10px #6cbde8);
+    background-color:#6cbde8;
+    border-radius: 45px;
     position: relative;
-    top: -5px;
+    top: -3px;
     opacity: 100%;
 }
