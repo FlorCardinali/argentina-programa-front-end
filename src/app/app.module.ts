@@ -16,6 +16,7 @@ import { AcercaDeComponent } from './componentes/header/perfil/acerca-de/acerca-
 import { EducacionComponent } from './componentes/body/educacion/educacion.component';
 import { SkillsComponent } from './componentes/body/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { BotonesBarraComponent } from './componentes/header/bar/botones-barra/botones-barra.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     AcercaDeComponent,
     EducacionComponent,
     SkillsComponent,
-  ],
+    BotonesBarraComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
