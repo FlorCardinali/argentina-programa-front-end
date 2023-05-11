@@ -1,10 +1,12 @@
 #img-perfil {
     border-radius: 50%;
     border: 3px solid black;
-    box-shadow: 0 -2px 10px #e8976b;
+    box-shadow: 0 -2px 25px #6cbde8;
     height: 200px;
     width: 200px;
     object-fit: cover;
+    position: relative;
+    top: -50px;
     /* mover la imagen dentro el circulo  */
     object-position: 0px -20px;
 }

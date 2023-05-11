@@ -13,7 +13,7 @@
 #texto-largo {
     max-height: 100px;
     overflow: hidden;
-    text-align: right;
+    text-align: left;
 }
 
 #mostrar-mas {

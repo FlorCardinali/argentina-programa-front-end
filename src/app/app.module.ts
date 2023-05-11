@@ -14,7 +14,8 @@ import { TextoPerfilComponent } from './componentes/header/perfil/texto-perfil/t
 import { BodyComponent } from './componentes/body/body.component';
 import { AcercaDeComponent } from './componentes/header/perfil/acerca-de/acerca-de.component';
 import { EducacionComponent } from './componentes/body/educacion/educacion.component';
-
+import { SkillsComponent } from './componentes/body/skills/skills.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -30,10 +31,12 @@ import { EducacionComponent } from './componentes/body/educacion/educacion.compo
     BodyComponent,
     AcercaDeComponent,
     EducacionComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

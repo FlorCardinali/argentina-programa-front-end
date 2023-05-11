@@ -1,3 +1,7 @@
-#body {
+#pagina {
     font-family: sans-serif;
 }
+::-webkit-scrollbar {
+    height: 0;
+    background: transparent;
+  }
